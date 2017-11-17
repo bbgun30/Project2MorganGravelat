@@ -1,0 +1,32 @@
+.background    { background: url(background.jpg);
+                 table-layout: fixed;
+                 border-spacing: 0; 
+				background-repeat: repeat-y;
+				background-repeat: repeat-x;
+}
+.background td { padding: 0;          }
+.lava          { background: url(Lava.png); }
+.wall          { background: url(Brick.png);   }
+
+.actor  { position: absolute;  }
+.victory   { background: url(WINN.png); }
+.player { background: url(player.png); }
+.excel { background: url(excel.png); }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+.die { background:  url(die.png);}
+
+.lost .player {
+  background: background: url(player.png);
+}
+.won .background {
+  background-color: royalblue;
+
+	
+background-blend-mode: multiply;
+}
